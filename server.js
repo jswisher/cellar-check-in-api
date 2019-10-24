@@ -4,6 +4,7 @@ var express = require('express'),
   mongoose = require('mongoose'),
   Session = require('./api/models/sessionModel'), //created model loading here
   Member = require('./api/models/memberModel'), //created model loading here
+  Style = require('./api/models/styleModel'), //created model loading here
   bodyParser = require('body-parser');
   
 // mongoose instance connection url connection
@@ -20,6 +21,9 @@ sessionRoutes(app); //register the route
 
  var memberRoutes = require('./api/routes/memberRoutes'); //importing route
  memberRoutes(app); //register the route
+
+ var styleRoutes = require('./api/routes/styleRoutes'); //importing route
+ styleRoutes(app); //register the route
 
 
 
