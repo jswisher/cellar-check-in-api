@@ -1,5 +1,5 @@
 {
-  "name": "cellarcheckin",
+  "name": "cellarcheckinApi",
   "version": "1.0.0",
   "description": "Cellar Check In API",
   "main": "index.js",
